@@ -1,0 +1,36 @@
+{
+  "name": "whatsup",
+  "version": "1.0.0",
+  "description": "zero code chat application node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start-dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mehedi4467/whatsup-server.git"
+  },
+  "keywords": [
+    "chat-application",
+    "whatsup"
+  ],
+  "author": "Mehedi Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mehedi4467/whatsup-server/issues"
+  },
+  "homepage": "https://github.com/Mehedi4467/whatsup-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
